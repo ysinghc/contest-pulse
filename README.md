@@ -92,5 +92,4 @@ Generated APKs will be located at:
 Built by **IIITU ACM Student Chapter**  
 *Indian Institute of Information Technology Una, Himachal Pradesh, India*
 
-- **Website**: [iiitu.acm.org](https://iiitu.acm.org)
-- **License**: Open Source
+- **Website**: [acmiiitu.in](https://acmiiitu.in)
