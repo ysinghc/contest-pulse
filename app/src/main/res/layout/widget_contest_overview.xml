@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/widget_bg"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <!-- Widget Header with Title & Refresh Button -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/widget_header_bg"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="8dp">
+
+        <TextView
+            android:id="@+id/tvWidgetTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="WEEKLY CONTESTS"
+            android:textColor="#F8FAFC"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnWidgetRefresh"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="Refresh Contests"
+            android:src="@drawable/ic_refresh"
+            android:tint="#818CF8" />
+
+    </RelativeLayout>
+
+    <!-- Contest 1 Slot -->
+    <LinearLayout
+        android:id="@+id/containerContest1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/card_dark"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tvPlatform1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#EF4444"
+            android:paddingHorizontal="6dp"
+            android:paddingVertical="2dp"
+            android:text="CF"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitle1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Educational Round 194"
+                android:textColor="#F8FAFC"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTime1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sat 08:05 PM (In 2d 4h)"
+                android:textColor="#94A3B8"
+                android:textSize="11sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Contest 2 Slot -->
+    <LinearLayout
+        android:id="@+id/containerContest2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="@color/card_dark"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tvPlatform2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F59E0B"
+            android:paddingHorizontal="6dp"
+            android:paddingVertical="2dp"
+            android:text="LC"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="LeetCode Weekly 517"
+                android:textColor="#F8FAFC"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTime2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sun 08:00 AM (In 3d 14h)"
+                android:textColor="#94A3B8"
+                android:textSize="11sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Contest 3 Slot -->
+    <LinearLayout
+        android:id="@+id/containerContest3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="@color/card_dark"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tvPlatform3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#8B5CF6"
+            android:paddingHorizontal="6dp"
+            android:paddingVertical="2dp"
+            android:text="CC"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitle3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="CodeChef Starters"
+                android:textColor="#F8FAFC"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTime3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wed 08:00 PM (In 6d)"
+                android:textColor="#94A3B8"
+                android:textSize="11sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

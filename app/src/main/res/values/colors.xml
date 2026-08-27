@@ -1,0 +1,22 @@
+<resources>
+    <color name="acm_blue">#0085C7</color>
+    <color name="acm_cyan">#0284C7</color>
+    <color name="primary">#0085C7</color>
+    <color name="primary_dark">#0369A1</color>
+    <color name="primary_variant">#0284C7</color>
+    <color name="accent">#059669</color>
+    <color name="background">#F8FAFC</color>
+    <color name="background_dark">#F8FAFC</color>
+    <color name="card_dark">#FFFFFF</color>
+    <color name="card_stroke">#E2E8F0</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#475569</color>
+    <color name="codeforces_color">#DC2626</color>
+    <color name="leetcode_color">#D97706</color>
+    <color name="codechef_color">#7C3AED</color>
+    <color name="custom_color">#0891B2</color>
+    <color name="alarm_red">#DC2626</color>
+    <color name="alarm_red_dark">#991B1B</color>
+    <color name="widget_bg">#F1F5F9</color>
+    <color name="widget_header_bg">#E2E8F0</color>
+</resources>

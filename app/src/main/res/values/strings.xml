@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ACM ContestPulse</string>
+    <string name="org_name">IIITU ACM Student Chapter</string>
+    <string name="widget_name">IIITU ACM Contests</string>
+    <string name="refresh">Refresh</string>
+    <string name="refreshing">Syncing contests…</string>
+    <string name="test_alarm">Test 15m Alarm</string>
+    <string name="add_custom_schedule">Set Weekly Reminder</string>
+    <string name="alarm_title">Contest Starting in 15 Minutes!</string>
+    <string name="snooze">Snooze 5 Min</string>
+    <string name="dismiss">Dismiss Alarm</string>
+    <string name="no_contests">No upcoming contests found. Tap refresh to sync.</string>
+</resources>
