@@ -66,8 +66,8 @@ org.iiitu.acm.contestpulse/
 
 ### Step 1: Clone Repository
 ```bash
-git clone https://github.com/IIITU-ACM/ACM-ContestPulse.git
-cd ACM-ContestPulse
+git clone https://github.com/ysinghc/contest-pulse.git
+cd contest-pulse
 ```
 
 ### Step 2: Configure `local.properties`
